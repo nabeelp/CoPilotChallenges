@@ -1,0 +1,111 @@
+### Challenge: Documenting Existing Code in JavaScript
+
+#### Task Description:
+You are provided with existing JavaScript code that implements a basic utility for handling strings. Your task is to add comprehensive documentation to the code for better readability and understanding.
+
+#### Existing Code:
+```javascript
+function capitalizeFirstLetter(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+function reverseString(str) {
+    return str.split('').reverse().join('');
+}
+
+function countVowels(str) {
+    return str.match(/[aeiouAEIOU]/g).length;
+}
+
+function isPalindrome(str) {
+    return str === reverseString(str);
+}
+```
+
+#### Documentation to Add:
+1. **Function: `capitalizeFirstLetter`**
+   - Description: This function capitalizes the first letter of a given string.
+   - Parameters:
+     - `str` (string): The input string.
+   - Returns:
+     - Returns the modified string with the first letter capitalized.
+
+2. **Function: `reverseString`**
+   - Description: This function reverses a given string.
+   - Parameters:
+     - `str` (string): The input string.
+   - Returns:
+     - Returns the reversed string.
+
+3. **Function: `countVowels`**
+   - Description: This function counts the number of vowels in a given string.
+   - Parameters:
+     - `str` (string): The input string.
+   - Returns:
+     - Returns the count of vowels in the string.
+
+4. **Function: `isPalindrome`**
+   - Description: This function checks if a given string is a palindrome.
+   - Parameters:
+     - `str` (string): The input string.
+   - Returns:
+     - Returns `true` if the string is a palindrome, `false` otherwise.
+
+#### Instructions:
+1. Open your preferred JavaScript IDE or text editor.
+2. Create a new JavaScript file named `string_utility.js`.
+3. Use GitHub CoPilot to assist you in adding the comprehensive documentation as described above.
+4. Ensure that the added documentation provides clear explanations of each function's purpose, parameters, and return values.
+
+#### Challenge Notes:
+- Ensure that the documentation is clear, concise, and follows best practices for code comments.
+- Document any edge cases or special considerations related to each function.
+
+#### Additional Tips:
+- Utilize CoPilot's suggestions to efficiently add the documentation.
+- Review the documentation to ensure it provides a complete understanding of each function.
+
+#### Documented Code (Generated with CoPilot):
+```javascript
+/**
+ * Capitalizes the first letter of a given string.
+ * @param {string} str - The input string.
+ * @returns {string} The modified string with the first letter capitalized.
+ */
+function capitalizeFirstLetter(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+/**
+ * Reverses a given string.
+ * @param {string} str - The input string.
+ * @returns {string} The reversed string.
+ */
+function reverseString(str) {
+    return str.split('').reverse().join('');
+}
+
+/**
+ * Counts the number of vowels in a given string.
+ * @param {string} str - The input string.
+ * @returns {number} The count of vowels in the string.
+ */
+function countVowels(str) {
+    return str.match(/[aeiouAEIOU]/g).length;
+}
+
+/**
+ * Checks if a given string is a palindrome.
+ * @param {string} str - The input string.
+ * @returns {boolean} `true` if the string is a palindrome, `false` otherwise.
+ */
+function isPalindrome(str) {
+    return str === reverseString(str);
+}
+```
+
+#### Expected Output:
+If the documentation is added correctly, the code should now be well-documented with clear explanations of each function's purpose, parameters, and return values.
+
+#### Challenge Conclusion:
+Upon completion, you will have a well-documented JavaScript utility for handling strings. This exercise demonstrates the importance of comprehensive documentation for code readability and understanding.

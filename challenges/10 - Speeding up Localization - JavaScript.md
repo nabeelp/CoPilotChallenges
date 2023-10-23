@@ -76,3 +76,5 @@ If implemented correctly, running the C# program with different language codes s
 #### Challenge Conclusion:
 
 This exercise demonstrates how GitHub Copilot can assist in modifying a C# application to return messages in multiple languages, leveraging resources for localization. It showcases how AI assistance can speed up the development process for tasks like language localization.
+
+[Next Challenge](11%20-%20Generating%20Regular%20Expressions%20-%20CSharp.md)

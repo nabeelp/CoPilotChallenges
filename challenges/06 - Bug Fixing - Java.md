@@ -56,3 +56,5 @@ If the bugs are fixed correctly, the `findMax` method should accurately find the
 
 #### Challenge Conclusion:
 Upon completion, you will have a corrected version of the `findMax` method that demonstrates how GitHub CoPilot can assist in bug fixing in Java code.
+
+[Next Challenge](07%20-%20Adding%20New%20Features%20-%20Python.md)

@@ -87,3 +87,5 @@ If implemented correctly, running the C# program should extract and print the em
 #### Challenge Conclusion:
 
 This exercise demonstrates how GitHub Copilot can assist in generating regular expressions (regex) for specific tasks in a C# application. It showcases how AI assistance can be valuable for tasks involving pattern matching and extraction.
+
+[Next Challenge](12%20-%20Learning%20a%20new%20Language%20-%20Ruby.md)

@@ -72,3 +72,5 @@ If the missing parts of the code are completed correctly, the `generatePrimes` f
 
 #### Challenge Conclusion:
 Upon completion, you will have a functioning program that generates prime numbers up to a specified limit. This exercise demonstrates how GitHub CoPilot can assist in completing partially-written code in JavaScript.
+
+[Next Challenge](05%20-%20Improving%20Code%20Maintainability%20-%20TypeScript.md)

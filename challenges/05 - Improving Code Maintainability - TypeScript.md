@@ -52,3 +52,5 @@ If the refactoring is done correctly, the `calculateFactorial` function should s
 
 #### Challenge Conclusion:
 Upon completion, you will have a refactored version of the `factorial` function that demonstrates how GitHub CoPilot can assist in improving code maintainability in TypeScript.
+
+[Next Challenge](06%20-%20Bug%20Fixing%20-%20Java.md)

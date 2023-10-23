@@ -72,3 +72,5 @@ If implemented correctly, the provided .SQL file should contain SQL code that cr
 #### Challenge Conclusion:
 
 This exercise demonstrates how you can use GitHub Copilot to generate SQL code based on provided comments within a .SQL file. It showcases the power of using AI assistance in code generation.
+
+[Next Challenge](10%20-%20Speeding%20up%20Localization%20-%20JavaScript.md)

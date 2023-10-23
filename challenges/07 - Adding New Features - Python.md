@@ -76,3 +76,5 @@ If the new features are added correctly, the updated calculator should be able t
 
 #### Challenge Conclusion:
 Upon completion, you will have an updated calculator program with additional features. This exercise demonstrates how GitHub CoPilot can assist in adding new functionalities to existing code.
+
+[Next Challenge](08%20-%20Documenting%20Existing%20Code%20-%20JavaScript.md)

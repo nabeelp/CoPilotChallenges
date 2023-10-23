@@ -67,3 +67,5 @@ If implemented correctly, running the Ruby program should produce the desired ou
 #### Challenge Conclusion:
 
 This exercise demonstrates how GitHub Copilot can assist in learning Ruby by generating code snippets for fundamental tasks. It showcases how AI assistance can be valuable for learning a new programming language.
+
+[Next Challenge](13%20-%20Generating%20Randomized%20Data%20Sets%20for%20Testing%20-%20Python.md)

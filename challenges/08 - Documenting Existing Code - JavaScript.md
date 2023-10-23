@@ -109,3 +109,5 @@ If the documentation is added correctly, the code should now be well-documented 
 
 #### Challenge Conclusion:
 Upon completion, you will have a well-documented JavaScript utility for handling strings. This exercise demonstrates the importance of comprehensive documentation for code readability and understanding.
+
+[Next Challenge](09%20-%20Generating%20SQL%20Code%20from%20Comments%20-%20SQL.md)

@@ -102,3 +102,5 @@ If implemented correctly, you should see a simple bar chart displayed in your we
 #### Challenge Conclusion:
 
 This exercise is designed to introduce you to D3.js and get you started with creating basic visualizations. Understanding how to use libraries like D3.js for data visualization is a valuable skill in web development.
+
+[Next Challenge](15%20-%20Creating%20a%20Website%20with%20Tailwind%20CSS.md)

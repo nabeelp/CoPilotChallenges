@@ -5,33 +5,37 @@ You are provided with a partially-completed JavaScript program that generates a 
 
 #### Partially-Completed Code:
 ```javascript
+/**
+ * Checks if a given number is prime or not.
+ * @param {number} n - The number to check for primality.
+ * @returns {boolean} - Returns true if the number is prime, false otherwise.
+ */
 function isPrime(n) {
-    if (n < 2) {
-        return false;
-    }
-    for (let i = 2; i < n; i++) {
-        if (n % i === 0) {
-            return false;
-        }
-    }
     return true;
 }
 
+/**
+ * Generates an array of prime numbers up to a given limit.
+ * @param {number} limit - The upper limit of the range to generate primes for.
+ * @returns {number[]} - An array of prime numbers up to the given limit.
+ */
 function generatePrimes(limit) {
     const primes = [];
-    for (let num = 2; num < limit; num++) {
-        if (isPrime(num)) {
-            primes.push(num);
+    for (let i = 2; i <= limit; i++) {
+        if (isPrime(i)) {
+            primes.push(i);
         }
     }
     return primes;
 }
+
+console.log(generatePrimes(50));
 ```
 
 #### Instructions:
-1. Open your preferred JavaScript IDE or text editor.
-2. Create a new JavaScript file named `prime_generator.js`.
-3. Use GitHub CoPilot to assist you in completing the missing parts of the `isPrime` and `generatePrimes` functions.
+1. Open Visual Studio Code, if not already open, and navigate to (prime_generator.js)[prime_generator.js].
+2. Review the provided code and notice that the `isPrime` function is incomplete.
+3. Use GitHub CoPilot to assist you in completing the missing parts of the `isPrime` function.
 4. Ensure that the completed code generates a list of prime numbers up to the specified limit.
 
 #### Challenge Notes:
@@ -41,31 +45,6 @@ function generatePrimes(limit) {
 #### Additional Tips:
 - Utilize CoPilot's suggestions to efficiently complete the missing parts of the code.
 - Test the completed code with various limits to ensure it generates prime numbers correctly.
-
-#### Completed Code (Generated with CoPilot):
-```javascript
-function isPrime(n) {
-    if (n < 2) {
-        return false;
-    }
-    for (let i = 2; i <= Math.sqrt(n); i++) {
-        if (n % i === 0) {
-            return false;
-        }
-    }
-    return true;
-}
-
-function generatePrimes(limit) {
-    const primes = [];
-    for (let num = 2; num < limit; num++) {
-        if (isPrime(num)) {
-            primes.push(num);
-        }
-    }
-    return primes;
-}
-```
 
 #### Expected Output:
 If the missing parts of the code are completed correctly, the `generatePrimes` function should generate an array of prime numbers up to the specified limit.

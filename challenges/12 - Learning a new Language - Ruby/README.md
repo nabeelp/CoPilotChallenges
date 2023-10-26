@@ -6,7 +6,7 @@ You are tasked with learning the basics of Ruby programming using GitHub Copilot
 
 #### Instructions:
 
-1. Open your preferred Ruby IDE or text editor.
+1. Open Visual Studio Code, if not already open.
 2. Create a new Ruby file named `learning_ruby.rb`.
 3. Use GitHub Copilot to assist you in generating code snippets for the specified tasks.
 4. Focus on completing the tasks listed below using Ruby syntax.
@@ -33,33 +33,6 @@ You are tasked with learning the basics of Ruby programming using GitHub Copilot
 
 - Pay attention to how GitHub Copilot suggests Ruby code snippets for the specified tasks.
 
-#### Sample Code (Generated with CoPilot):
-
-```ruby
-# Task 1: Variables and Output
-message = "Hello, World!"
-puts message
-
-# Task 2: String Manipulation
-concatenated_string = "Hello, " + "Ruby!"
-puts concatenated_string
-
-# Task 3: Arrays
-numbers = [1, 2, 3, 4, 5]
-puts numbers
-
-# Task 4: Conditionals
-number = 15
-if number > 10
-    puts "The number is greater than 10."
-end
-
-# Task 5: Loops
-for i in 1..5 do
-    puts i
-end
-```
-
 #### Expected Output:
 
 If implemented correctly, running the Ruby program should produce the desired output for each task.
@@ -68,4 +41,4 @@ If implemented correctly, running the Ruby program should produce the desired ou
 
 This exercise demonstrates how GitHub Copilot can assist in learning Ruby by generating code snippets for fundamental tasks. It showcases how AI assistance can be valuable for learning a new programming language.
 
-[Next Challenge](13%20-%20Generating%20Randomized%20Data%20Sets%20for%20Testing%20-%20Python.md)
+[Next Challenge](../13%20-%20Generating%20Randomized%20Data%20Sets%20for%20Testing%20-%20Python/README.md)

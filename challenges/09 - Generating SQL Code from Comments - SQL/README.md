@@ -18,7 +18,7 @@ You are provided with comments specifying the structure of a database. Your task
 
 #### Instructions:
 
-1. Create a new .SQL file named `generate_db.sql`.
+1. Open Visual Studio Code, if not already open, and navigate to the [OnlineStore.sql](OnlineStore.sql) file.
 2. Use GitHub Copilot to assist you in generating the SQL code to create the database and tables based on the provided comments.
 3. Ensure that the generated SQL code accurately reflects the database structure described in the comments.
 
@@ -73,4 +73,4 @@ If implemented correctly, the provided .SQL file should contain SQL code that cr
 
 This exercise demonstrates how you can use GitHub Copilot to generate SQL code based on provided comments within a .SQL file. It showcases the power of using AI assistance in code generation.
 
-[Next Challenge](10%20-%20Speeding%20up%20Localization%20-%20JavaScript.md)
+[Next Challenge](../10%20-%20Speeding%20up%20Localization%20-%20JavaScript/README.md)

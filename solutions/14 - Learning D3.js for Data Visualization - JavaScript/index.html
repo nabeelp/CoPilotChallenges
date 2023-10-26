@@ -1,0 +1,74 @@
+<!-- FILEPATH: /c:/Repos/GitHub/nabeelp/CoPilotChallenges/solutions/14 - Learning D3.js for Data Visualization - JavaScript/index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scatterplot Chart with D3.js</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+        .chart {
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+            margin: 0 auto;
+        }
+        .dot {
+            fill: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="chart"></div>
+    <script>
+        // Generate random data
+        const data = Array.from({length: 20}, () => ({
+            x: Math.random() * 100,
+            y: Math.random() * 100
+        }));
+
+        // Set up chart dimensions
+        const margin = {top: 20, right: 20, bottom: 20, left: 20};
+        const width = 500 - margin.left - margin.right;
+        const height = 500 - margin.top - margin.bottom;
+
+        // Create SVG element
+        const svg = d3.select(".chart")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+        // Create scales
+        const xScale = d3.scaleLinear()
+            .domain([0, d3.max(data, d => d.x)])
+            .range([0, width]);
+
+        const yScale = d3.scaleLinear()
+            .domain([0, d3.max(data, d => d.y)])
+            .range([height, 0]);
+
+        // Create axes
+        const xAxis = d3.axisBottom(xScale);
+        const yAxis = d3.axisLeft(yScale);
+
+        // Add axes to chart
+        svg.append("g")
+            .attr("transform", `translate(0, ${height})`)
+            .call(xAxis);
+
+        svg.append("g")
+            .call(yAxis);
+
+        // Add data points to chart
+        svg.selectAll(".dot")
+            .data(data)
+            .enter()
+            .append("circle")
+            .attr("class", "dot")
+            .attr("cx", d => xScale(d.x))
+            .attr("cy", d => yScale(d.y))
+            .attr("r", 5);
+    </script>
+</body>
+</html>
